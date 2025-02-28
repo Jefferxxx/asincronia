@@ -4,7 +4,10 @@
 // • Usando setInterval.
 // • Usando setTimeout anidado.
 
-function imprimirNumeros(desde, hasta) {
+let desde = 1;
+let hasta = 10;
+
+function imprimirNumeros(desde, hasta) {//usando setInterval y esto hace que se ejecute de manera asincrona, pero se ejecuta de manera secuencial
   let intervalo = setInterval(() => {
     console.log(desde);
     if (desde === hasta) {
@@ -13,22 +16,14 @@ function imprimirNumeros(desde, hasta) {
       desde++;
     }
   }
-  , 1000);
+    , 1000);
 }
 
-imprimirNumeros(1, 10);
+imprimirNumeros(desde, hasta);
 
-setTimeout(() => {
-    let intervalo = setInterval(() => {
-      console.log(desde);
-      if (desde === hasta) {
-        clearInterval(intervalo);
-      } else {
-        desde++;
-      }
-    }
-    , 1000);
-  })
+
+
+
 
 
 
