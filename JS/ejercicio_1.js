@@ -8,7 +8,7 @@ let desde = 1;
 let hasta = 10;
 
 function imprimirNumeros(desde, hasta) {//usando setInterval y esto hace que se ejecute de manera asincrona, pero se ejecuta de manera secuencial
-  let intervalo = setInterval(() => {
+  let intervalo = setInterval(() => {//se ejecuta de manera asincrona pero se ejecuta de manera secuencial y no se ejecuta de manera paralela
     console.log(desde);
     if (desde === hasta) {
       clearInterval(intervalo);
