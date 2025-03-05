@@ -1,4 +1,22 @@
 {
-  "NOMBRE": "Ejercicio 15"
-  
+  "NOMBRE": "Jefferson",
+  "APELLIDO": "Cadavid",
+  "EDAD": 18,
+  "ESTADO CIVIL": "Soltero",
+  "SEXO": "Masculino",
+  "PAIS DE RESIDENCIA": "Colombia",
+  "MODALIDAD DE TRABAJO": "REMOTO",
+  "EMPRESA PARA LA QUE TRABAJA": "MICROSOFT",
+  "CARGO QUE OCUPA": "Desarrollador",
+  "ESPECIALIDAD": "Desarrollo de software",
+  "ANIOS DE EXPERIENCIA": "3 anios",
+  "IDIOMAS": "Inglés, español",
+  "NIVEL DE INGLES": "B1",
+  "HERRAMIENTAS": "Visual Studio Code",
+  "EXPERIENCIA EN HERRAMIENTAS": "1 anios",
+  "EXPERIENCIA EN PROGRAMACION": "3 anios",
+  "EXPERIENCIA EN BASE DE DATOS": "3 anios",
+  "EXPERIENCIA EN DESARROLLO WEB": "3 anios",
+  "EXPERIENCIA EN DESARROLLO MÓVIL": "3 anios",
+  "EXPERIENCIA EN DESARROLLO DE VIDEOJUEGOS": "3 anios"
 }
