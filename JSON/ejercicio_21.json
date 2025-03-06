@@ -1,0 +1,7 @@
+[
+    { "nombre": "Cuaderno de Ciencias", "tamaño": 120, "color": "Verde" },
+    { "nombre": "Libreta de Apuntes", "tamaño": 80, "color": "Amarillo" },
+    { "nombre": "Cuaderno de Matemáticas", "tamaño": 100, "color": "Azul" },
+    { "nombre": "Agenda Escolar", "tamaño": 60, "color": "Naranja" }
+  ]
+  
