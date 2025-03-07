@@ -88,4 +88,3 @@ obtenerYValidarEntrada('email');
 obtenerYValidarEntrada('fecha');
 
 console.log(objeto);
-
